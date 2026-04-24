@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1 of 5"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drinking cold water after a meal is bad for digestion."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="#16213E"
+        android:layout_marginBottom="32dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnHack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Life Hack (True)"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnMyth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#E94560"
+        android:text="Urban Myth (False)"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFD700"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Next →"
+        android:backgroundTint="#0F3460"
+        android:visibility="gone"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
